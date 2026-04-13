@@ -1,0 +1,45 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+*.log
+*.tsbuildinfo
+next-env.d.ts
+
+# databases
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-journal
+
+# env files
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# development/scratch
+/scratch
+/test_import.xlsx
+/scripts/test-db.js
+/scripts/test-db-absolute.js
