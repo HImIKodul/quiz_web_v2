@@ -194,7 +194,7 @@ export default function QuizSession({
   }
 
   return (
-    <AntiCheatGuard>
+    <AntiCheatGuard onViolationLimitReached={handleSubmit}>
       <div className="max-w-4xl mx-auto space-y-8">
       {/* Header with Stats */}
       <div className="flex items-center justify-between glass-card p-6 sticky top-4 z-10 backdrop-blur-2xl">
